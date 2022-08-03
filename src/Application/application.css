@@ -1,0 +1,87 @@
+/* GENERAL */
+.container {
+	-fx-padding: 10 10 10 10;	
+}
+
+.center {
+	-fx-alignment: center;
+}
+
+.vspacing {
+	-fx-spacing: 15px;
+}
+
+.hspacing {
+	-fx-spacing: 5px;
+}
+
+.value  {
+	-fx-text-fill: white;
+	-fx-font-size: 18px;
+    -fx-font-weight: bold;
+	-fx-font-family:'Helvetica Neue', sans-serif;
+}
+
+/* NODES */
+#root {
+	-fx-padding: 5px;
+}
+
+#background {
+	-fx-background-color: #000000;
+}
+
+#rectangleLeftBG {
+	-fx-fill: radial-gradient(focus-angle 45deg, focus-distance 20%, center 50% 50%, radius 70%, #009900, #003600);
+}
+
+#paneRight {
+	-fx-background-image: url("./img/background_wood.jpg");	
+}
+
+#labelGameMessage {
+	-fx-font-size: 25px;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-background-color:#ED8223;
+	-fx-font-family:'Helvetica Neue', sans-serif;
+    -fx-font-weight: bold;
+	-fx-font-size: 18px;
+	-fx-border-radius: 20px;
+	-fx-max-width: 10000px; /* BIG VALUE */
+}
+
+.button:hover {
+    -fx-background-color:#DD7213;
+    -fx-cursor: hand;
+}
+
+#labelBetSlider {
+	-fx-text-fill: white;
+	-fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-background-color:#ED8223;
+	-fx-font-family:'Helvetica Neue', sans-serif;
+	-fx-font-size: 18px;
+	-fx-label-padding: 5;
+	-fx-background-radius: 5px;
+	-fx-max-width: 10000px; /* BIG VALUE */	
+}
+
+.slider .track {
+    -fx-background-color:#ED8223;
+    -fx-border-color: #FFF;
+    -fx-border-radius: 20px;
+}
+
+.slider .thumb {
+    -fx-background-color:#ED8223;
+    -fx-border-color: #FFF;
+    -fx-border-radius: 20px;
+}
+
+.slider:hover {
+	-fx-cursor: hand;
+}
